@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-top: 50px;
+    width: 60vh;
+    flex-direction: column;
+    border-radius: 65px;
+    background: linear-gradient(315deg, #aed8de, #cfffff);
+    box-shadow:  -17px -17px 34px #708b8f,17px 17px 34px #ffffff;
+}
+
+.upload{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    top: 33%;
+    width: 90%;
+    justify-content: space-around;
+}
+.buttons #dlButton,#generateButton{
+    height: 38px;
+    width: 125px;
+    font-size: 19px;
+    border: none;
+    border-radius: 41px;
+    background: #f7c8c1;
+    box-shadow: -5px -5px 11px #af8e89, 5px 5px 11px #fffff9;
+}
+
+.buttons #dlButton:hover,#generateButton:hover{
+    border-radius: 65px;
+    background: #f7c8c1;
+    box-shadow: inset -3px -3px 6px #8f7470, inset 3px 3px 6px #ffffff;
+}
+
+#uploadButton{
+    height: 24px;
+    border-radius: 4px;
+    background: linear-gradient(315deg, #deb4ae, #ffd6cf);
+    box-shadow: -2px -2px 5px #8f7470, 2px 2px 5px #ffffff;
+    width: 63px;
+    margin-left: 5px;
+    border: none;
+}
+
+#uploadButton:hover{
+    border-radius: 5px;
+    background: #f7c8c1;
+    box-shadow: inset -3px -3px 6px #8f7470, inset 3px 3px 6px #ffffff;
+}
+
+#tfStyle{
+    border-radius: 5px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
